@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Converter App</title>
+        
+        <link rel=stylescheet src="style.ccs">
+        
+    </head>
+    <body>
+
+        <p><a href="index.html">Home</a></p>
+        <h1>My Conversions</h1>
+        <div>
+        <p>
+            <label>Pounds</label>
+            <input id="inputPounds" placeholder="Pounds"
+            oninput="weightConverter(this.value)"
+            onchange="weightConverter(this.value)">
+
+        </p> 
+        
+        
+
+        <p>kilograms: <span id="outputKilograms"></span></p>
+        <p>ounces: <span id="outputounces"></span></p>
+        <p>grams: <span id="outputgrams"></span></p>
+        <p>stones: <span id="outputstones"></span></p>
+        <p>tons(american): <span id="outputtons"></span></p>
+        <p>tonnes(canadian): <span id="outputtonnes"></span></p>
+        </div>
+    
+        <script src = "script.js"></script>
+        
+         
+    </body>
+</html>

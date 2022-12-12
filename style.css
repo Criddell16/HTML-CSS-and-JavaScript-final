@@ -1,0 +1,19 @@
+h3 {
+    font-weight:bolder;
+    font-style: italic;
+     color:black;
+}
+
+a{
+text-align:left;
+padding: 1px;
+margin-trim: cyan;
+border-style: dotted;
+border-color: aqua;
+text-decoration:dashed;
+}
+
+li {
+    padding: 2px;
+}
+
